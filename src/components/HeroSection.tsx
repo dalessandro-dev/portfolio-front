@@ -80,7 +80,7 @@ export const HeroSection = ({ socials }: { socials: SocialType[] }) => {
           <span className="w-px h-6 bg-border/50 mx-1" />
 
           <a
-            href="https://drive.google.com/file/d/1HMr9zVrpFgf6YLQv8gNCTg8P86duqa7g/view?usp=drive_link"
+            href="https://drive.google.com/file/d/14f-4wL_aGeXrMRPmSjlgINj2ZM2eIRtA/view?usp=drive_link"
             className="h-10 gap-1 p-2 text-sm cursor-pointer border border-border/50 rounded-full flex items-center justify-center text-muted-foreground hover:text-glow hover:border-glow/40 transition-all duration-300"
           >
             <Download size={15} />
