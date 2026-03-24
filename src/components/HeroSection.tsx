@@ -25,7 +25,7 @@ export const HeroSection = ({ socials }: { socials: SocialType[] }) => {
         </h1>
 
         <span className="text-description text-center text-[1.5vh] sm:text-left mb-8 px-5 sm:px-0 sm:text-[9px] md:text-[10px] lg:text-[0.9vw]">
-          Buscando construir aplicações full-stack que solucianem
+          Buscando construir aplicações full-stack que solucionem
           verdadeiramente problemas reais
         </span>
 
@@ -36,7 +36,7 @@ export const HeroSection = ({ socials }: { socials: SocialType[] }) => {
           className="flex flex-col px-5 sm:px-0 sm:flex-row gap-4 text-xs tracking-[0.2em] mb-8"
         >
           <a
-            href="https://wa.me/85992017523?text=Olá, Dalessandro! Vi seu portfólio e fiquei interessado no seu trabalho como desenvolvedor. Gostaria de saber mais sobre seu trabalho, você teria disponibilidade?"
+            href="https://wa.me/5585992017523?text=Olá, Dalessandro! Vi seu portfólio e fiquei interessado no seu trabalho como desenvolvedor. Gostaria de saber mais sobre seu trabalho, você teria disponibilidade?"
             className="group relative flex justify-center items-center gap-2.5 font-mono sm:text-[10px] lg:text-xs tracking-[0.2em] uppercase px-8 py-3 lg:py-2.5 rounded-sm border border-glow/60 text-glow bg-glow/5 backdrop-blur-sm transition-all duration-500 hover:bg-glow hover:text-primary-foreground hover-shadow-glow-blue"
           >
             <WhatsappIcon className="text-glow shrink-0 sm:aspect-square sm:w-auto sm:h-[90%] transition-transform duration-300 group-hover:rotate-8 group-hover:text-primary-foreground" />
