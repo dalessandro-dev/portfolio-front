@@ -1,4 +1,4 @@
-import { inView, motion, useInView, type HTMLMotionProps } from "framer-motion";
+import { motion } from "framer-motion";
 
 export const ProjectCardSkeleton = ({
   inView,
@@ -22,7 +22,7 @@ export const ProjectCardSkeleton = ({
           <div className="w-full h-20 bg-loading rounded-2xl animate-pulse" />
         </div>
 
-        <div className="w-60 h-4 bg-loading rounded-2xl animate-pulse" />       
+        <div className="w-60 h-4 bg-loading rounded-2xl animate-pulse" />
 
         <div className="flex gap-4 link-minimal text-[12px] mt-auto mb-0 sm:text-xs">
           <div className="w-40 h-5 bg-loading rounded-2xl animate-pulse" />

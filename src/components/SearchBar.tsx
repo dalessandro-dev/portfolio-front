@@ -11,7 +11,7 @@ export const SearchBar = ({ total, projectsNumber, search }: SearchBar) => {
   const inputRef = useRef<HTMLInputElement>(null);
   const [showButton, setShowButton] = useState<boolean>(false);
 
-  const timerRef = useRef(null);
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const handleSearch = () => {
     const value = inputRef.current?.value || "";
